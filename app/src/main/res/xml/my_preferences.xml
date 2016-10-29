@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:key="name"
+        android:title="User Name"
+        android:summary="Profilename"
+        />
+
+    <CheckBoxPreference android:key="red"
+        android:title="Red"/>
+
+    <CheckBoxPreference android:key="green"
+        android:title="Green"/>
+
+    <CheckBoxPreference android:key="blue"
+        android:title="Blue"/>
+
+</PreferenceScreen>
